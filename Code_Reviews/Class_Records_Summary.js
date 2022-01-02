@@ -10,9 +10,9 @@ function generateClassRecords(scoresObj) {
     let exams = currentStudent.scores.exams.reduce((acc, exam, idx) => {
       result.exams[idx] ? result.exams[idx].push(exam) : result.exams[idx] = [exam]; // generates an array of exams separated by respective index for later processing
       return acc + exam;
-    }, 0) / TERM_EXAM_AMOUNT ; 
+    }, 0) / TERM_EXAM_AMOUNT; 
     let exercises = currentStudent.scores.exercises.reduce((acc, exe) => acc + exe, 0);
-    let average = Math.round((exams * EXAM_WEIGHT + exercises * EXERCISE_WEIGHT) * 10) / 10;
+    let average = Math.round(exams * EXAM_WEIGHT + exercises * EXERCISE_WEIGHT);
     let grade = letterGrade(average);
 
     result.studentGrades.push(`${average} (${grade})`);
