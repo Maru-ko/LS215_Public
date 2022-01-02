@@ -8,6 +8,7 @@
 #### Connect with me:
 
 [<img align="left" alt="marukosdesu | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="マルコ | Codewars" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][codewars]
 
 <br />
 
@@ -35,3 +36,4 @@
 [website]: https://launchschool.com/join/a4c7631fa2
 [course]: https://launchschool.com/courses/8a67ba63/homehttps://launchschool.com/courses/8a67ba63/homehttps://launchschool.com/courses/8a67ba63/home
 [twitter]: https://twitter.com/marukosdesu
+[codewars]: https://www.codewars.com/users/マルコ 
