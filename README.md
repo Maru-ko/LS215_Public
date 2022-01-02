@@ -8,7 +8,7 @@
 #### Connect with me:
 
 [<img align="left" alt="marukosdesu | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="マルコ | Codewars" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][codewars]
+[<img align="left" alt="マルコ | Codewars" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codewars.svg" />][codewars]
 
 <br />
 
