@@ -14,6 +14,9 @@
 
 ---
 
+#### 『さー、マルコのブートキャンプへようこそ！全国津々浦々老若男女みんなでやれば怖くない』
+
+---
 #### Languages and Tools:
 
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ruby/ruby.png"/>
