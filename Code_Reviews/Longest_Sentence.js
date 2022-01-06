@@ -1,6 +1,7 @@
 function longestSentence(text) {
   let regX = /[a-z]+[^.!?]*?[.!?]/gi;
-  let result = text.match(regX).sort((x,y) => x.length - y.length).slice(-1)[0];
+  let result = text.match(regX).sort((x,y) => x.split(' ').length - y.split(' ')
+      .length).slice(-1)[0];
   console.log(`${result}\n\nThe longest sentence has ${result.split(' ').length} words.`); 
 }
 // sample text
