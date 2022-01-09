@@ -11,21 +11,19 @@ function compareVersions(v1, v2) {
   let v2Count = 0;
 
   for (let i = 0; i < max; ++i) {
-    let x = arrV1[i];
-    let y = arrV2[i];
+    let x = +(arrV1[i]);
+    let y = +(arrV2[i]);
    x > y ? v1Count += 1 : x < y ? v2Count += 1 : 'hi';
   }
   
   return v1Count > v2Count ? 1 : v1Count < v2Count ? -1 : 0;
 }
 
-
 function padder(str, max) {
   let rounds = max - (str.split('.').length);
   for (let i = 0; i < rounds; ++i) str += '.0'
   return str;
 }
-
 
 let a = '1.2.0.0';
 let b = '1.18.2';
