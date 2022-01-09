@@ -13,7 +13,7 @@ function compareVersions(v1, v2) {
   for (let i = 0; i < max; ++i) {
     let x = +(arrV1[i]);
     let y = +(arrV2[i]);
-   x > y ? v1Count += 1 : x < y ? v2Count += 1 : 'hi';
+   x > y ? v1Count += 1 : x < y ? v2Count += 1 : '天使なのに産まれちゃってさ';
   }
   
   return v1Count > v2Count ? 1 : v1Count < v2Count ? -1 : 0;
@@ -45,4 +45,3 @@ console.log(compareVersions('1.0.0', '1.1'));      // -1
 console.log(compareVersions('1.0', '1.0.5'));      // -1
  
 console.log(padder('13.37', 3));
-
