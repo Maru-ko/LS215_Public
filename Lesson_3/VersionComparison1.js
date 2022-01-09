@@ -1,5 +1,10 @@
 const gClause = str => /[^0-9.]/.test(str);
 const dotCheck = str => str.match(/\./g)?.length >= str.match(/\d/g)?.length;
+function padder(str, max) {
+  let rounds = max - (str.split('.').length);
+  for (let i = 0; i < rounds; ++i) str += '.0'
+  return str;
+}
 
 function compareVersions(v1, v2) {
   if (gClause(v1) || gClause(v2)) return null;    
@@ -18,13 +23,6 @@ function compareVersions(v1, v2) {
   
   return v1Count > v2Count ? 1 : v1Count < v2Count ? -1 : 0;
 }
-
-function padder(str, max) {
-  let rounds = max - (str.split('.').length);
-  for (let i = 0; i < rounds; ++i) str += '.0'
-  return str;
-}
-
 let a = '1.2.0.0';
 let b = '1.18.2';
 
