@@ -15,6 +15,7 @@
 ---
 
 #### 『さー、マルコのブートキャンプへようこそ！全国津々浦々老若男女みんなでやれば怖くない』
+#### "Bien, ¡bienvenidos al campo de Marcos! Chicos y Chicas de todo el pais y de todas las edades, haremos esto juntos, no hay nada que temer!"
 
 ---
 #### Languages and Tools:
